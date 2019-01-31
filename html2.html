@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Animation</title>
+	<link rel="stylesheet" href="">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("div").animate({left:'200px'},"slow");
+			$("div").animate({fontSize:'200px'},"slow");
+			// $("div").animate({background:#EB2519},"slow");
+
+		});
+	});
+</script>
+</head>
+<body>
+	<button>Start Animation</button>
+	<div style="background:#98bf21;height:100px;width:200px;position:absolute;">Hello</div>
+	
+</body>
+</html>
